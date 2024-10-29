@@ -1,0 +1,12 @@
+{
+  "name": "express-docker-app",
+  "version": "1.0.0",
+  "description": "Basit Express API",
+  "main": "testapp.js",
+  "scripts": {
+    "start": "node testapp.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
