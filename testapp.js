@@ -7,8 +7,8 @@ app.use(express.json());
 
 // GET isteği için geri döndürülecek basit bir JSON verisi.
 let data = [
-    { id: 1, name: "Örnek 1" },
-    { id: 2, name: "Örnek 2" },
+    { id: 1, name: "Örnek 12" },
+    { id: 2, name: "Örnek 23" },
 ];
 
 app.get('/api/data', (req, res) => {
