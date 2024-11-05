@@ -10,7 +10,7 @@ let data = [
     { id: 1, name: "Örnek 1" },
     { id: 2, name: "Örnek 2" },
 ];
-
+//test
 app.get('/api/data', (req, res) => {
     res.status(200).json(data);
 });
